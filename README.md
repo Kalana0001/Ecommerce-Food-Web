@@ -1,7 +1,3 @@
-Here's a README template for your GitHub repository for the eCommerce Food Web Application:
-
----
-
 # Ecommerce Food Web Application
 
 ## Overview
@@ -99,5 +95,3 @@ This project is an eCommerce web application for food items built using React, N
   ```
 
 ---
-
-Feel free to customize it further based on specific details or additional features of your application.
