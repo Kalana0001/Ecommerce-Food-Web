@@ -1,0 +1,278 @@
+.sidecontainer{
+  display: flex;
+  padding: 80px 0 0 0;
+  background: rgb(226, 226, 226);
+}
+
+.sidenav{
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  left: 0;
+  width: 90px;
+  background: #fff;
+  overflow: hidden;
+  transition: 1s;
+  margin: 5px 0 10px 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+.sidenav .fas{
+  position: relative;
+  width: 70px;
+  height: 30px;
+  top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.sidenav-head{
+  margin-top: 15px;
+}
+.sidesnav-item{
+margin-top: -10px;
+position: relative;
+}
+.sidelogo{
+  text-align: center;
+  display: flex;
+  margin: 10px 0 0 20px;
+  padding-bottom: 3rem;
+  text-decoration: none;
+  color: rgb(85, 83, 83);
+}
+
+.sidelogo img{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.sidelogo span{
+  font-weight: bold;
+  margin-left: 45px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+
+.sidea{
+  position: relative;
+  width: 280px;
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(85, 83, 83);
+  display: table;
+  padding: 0px 0 30px 0;
+  text-align: left;
+  margin: 0px 0px 0px 10px;
+}
+
+.sidehover:hover{
+  background: #eee;
+transition: 0.3s;
+}
+.sidea:hover i{
+color: #facc22;
+transition: 0.5s;
+}
+
+/* MAin Section */
+.main{
+  position: relative;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+.main-top{
+  display: flex;
+  width: 100%;
+}
+.main-top i{
+  position: absolute;
+  right: 0;
+  margin: 10px 30px;
+  color: rgb(110, 109, 109);
+  cursor: pointer;
+}
+.main .users{
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+.users .card{
+  width: 25%;
+  margin: 10px;
+  background: #fff;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.users .card img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.users .card h4{
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.users .card p{
+  font-size: 12px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.users table{
+  margin:  auto;
+}
+
+.users .per span{
+  padding: 5px;
+  border-radius: 10px;
+  background: rgb(223, 223, 223);
+}
+.users td{
+  font-size: 14px;
+  padding-right: 15px;
+  margin-top: 10px;
+}
+.users .card button{
+  width: 100%;
+  margin-top: 8px;
+  padding: 7px;
+  cursor: pointer;
+  border-radius: 10px;
+  background: transparent;
+  border: 1px solid black;
+}
+.users .card button:hover{
+  background: #facc22;;
+  color: black;
+  transition: 0.5s;
+}
+
+
+.attendance{
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+.attendance-list{
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.table{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 15px;
+  min-width: 100%;
+  overflow: hidden;
+  border-radius: 5px 5px 0 0;
+}
+table thead tr{
+  color: black;
+  background: #facc22;
+  text-align: center;
+  font-weight: bold;
+}
+.table th,
+.table td{
+  padding: 12px 15px;
+}
+.table tbody tr{
+  border-bottom: 1px solid #ddd;
+}
+.table tbody tr:nth-of-type(odd){
+  background: #f3f3f3;
+}
+.table tbody tr:last-of-type{
+  border-bottom: 2px solid #facc22;
+}
+.table button{
+  padding: 6px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  border: 1px solid #ffffff;
+}
+.btn-delete {
+  background-color: #d9534f;
+}
+
+.btn-delete:hover {
+  background-color: #c9302c;
+  transition: background 0.3s ease;
+}
+.btn-edit {
+  background-color: #f0ad4e;
+}
+
+.btn-edit:hover {
+  background-color: #ec971f;
+  transition: background 0.3s ease;
+}
+.btn-view {
+  background-color: #5bc0de;;
+}
+
+.btn-view:hover {
+  background-color: #31b0d5;
+  transition: background 0.3s ease;
+}
+
+#sideicon{
+  margin: 17px;
+  margin-right: 50px;
+}
+
+/*toggle on and off */
+.sidenav.visible {
+  display: block;
+}
+
+.sidenav.hidden {
+  width: 280px;
+  transition: 1s;
+}
+.togglebutton{
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  text-align: center;
+  margin: -5px 10px 0px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.togicon{
+  margin: 3px 0 0 0;
+}
+.togglebutton:hover{
+  background: #facc22;
+  transition: background 0.3s ease;
+}
+.btn-add {
+  background-color: #009879;
+  padding: 10px 90px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  border: 1px solid #ffffff;
+}
+
+.btn-add:hover {
+  background-color: #07755f;
+  transition: background 0.3s ease;
+}
+.card-image{
+  width: 70px;
+  height: 70px;
+}

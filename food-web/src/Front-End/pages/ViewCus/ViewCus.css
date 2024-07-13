@@ -1,0 +1,65 @@
+.viewcard {
+    width: 350px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+}
+.viewall{
+    padding: 110px 0 30px 0;
+}
+
+.viewcard-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    text-align: center;
+    width: 100%; /* Ensure header spans full width */
+}
+
+.viewcard-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally within body */
+    justify-content: center; /* Center items vertically within body */
+}
+
+.card-image1 {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.data-container {
+    text-align: left; /* Align text data to the left */
+}
+
+.viewbtn1 {
+
+    text-decoration: none;
+    margin-top: 50px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid #eea540;
+    background: #ebaf5b;
+
+}
+
+.viewbtn1:hover {
+    background-color: #ec971f;
+    transition: background 0.3s ease;
+}
+.viewp{
+    margin-top:6px ;
+}

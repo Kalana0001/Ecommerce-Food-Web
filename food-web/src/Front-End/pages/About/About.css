@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*Banner*/
+
+.banner_bg{
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../../assests/banner_bg.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner_bg h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    position: relative;
+    top: 50%;
+    color: #fff;
+}
+
+.banner_bg h1 span{
+    color: #facc22;
+    margin-right: 15px;
+}
+
+
+
+/*About*/
+
+.about{
+    width: 100%;
+    height: auto;
+    padding: 50px 0 0 0;
+    background-image: url(../../assests/about_bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.about .about_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about .about_main .about_image img{
+    width: 750px;
+}
+
+.about .about_main .about_text h3{
+    position: relative;
+    bottom: 10px;
+    font-size: 25px;
+}
+
+.about .about_main .about_text p{
+    width: 650px;
+    text-align: justify;
+    line-height: 23px;
+    margin-top: 20px;
+}
+
+.about .about_main .about_text .about_services{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.about .about_main .about_text .about_services .s_1{
+    display: flex;
+    align-items: center;
+    width: 180px;
+    background: #ececec;
+    padding: 10px;
+    border: 2px solid #facc22;
+    cursor: pointer;
+}
+
+.about .about_main .about_text .about_services .s_1 i{
+    color: #000;
+    margin: 5px 10px 5px 5px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.about .about_main .about_text .about_services .s_1:hover i{
+    color: #facc22;
+}
+
+.about .about_main .about_text .about_services .s_1 a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.about .about_main .about_text .about_btn{
+    position: relative;
+    top: 35px;
+    padding: 10px 20px;
+    border: 2px solid #facc22;
+    text-decoration: none;
+    color: #000;
+    z-index: 5;
+    transition: 0.3s;
+}
+
+.about .about_main .about_text .about_btn i{
+    font-size: 15px;
+    margin-right: 8px;
+}
+
+.about .about_main .about_text .about_btn:hover{
+    color: #fff;
+}
+
+.about .about_main .about_text .about_btn::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #facc22;
+    z-index: -1;
+    transition: 0.3s;
+}
+
+.about .about_main .about_text .about_btn:hover::before{
+    top: unset;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
+

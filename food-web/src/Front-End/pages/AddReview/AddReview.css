@@ -1,0 +1,62 @@
+
+.add-user-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .add-user-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .add-user-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-user-form label {
+    margin-bottom: 8px;
+  }
+  
+  .add-user-form input,
+  .add-user-form textarea,
+  .add-user-form select{
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  .add-user-form textarea {
+    resize: vertical;
+  }
+  
+  .add-user-form-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-user-form button:hover {
+    background-color: #0056b3;
+  }
+  .addreview{
+    padding: 100px 0 50px 0;
+  }
+  .reback{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff0800;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+  }

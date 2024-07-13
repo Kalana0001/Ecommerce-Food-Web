@@ -1,0 +1,45 @@
+.payment-success{
+    padding: 150px 0 0 0;
+    align-items: center;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.payment-success-container {
+    width: 700px;
+    height: 450px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 10px 14px 8px 10px rgba(0, 0, 0, 0.1);
+    color: black;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    border: solid;
+    border-color: rgb(215, 220, 223);
+}
+
+.payment-success-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.payment-success-container p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.payment-success-container .thank-you-message {
+    font-weight: bold;
+    margin-top: 20px;
+}
+.payment-successright{
+    margin-top: 30px;
+    border-radius: 50px;
+    border: solid;
+    font-size: 100px;
+    padding: 20px;
+    background: linear-gradient(to right, #00b09b, #96c93d);
+    color: aliceblue;
+}
