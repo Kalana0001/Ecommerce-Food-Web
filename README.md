@@ -88,6 +88,10 @@ This project is an eCommerce web application for food items built using React, N
   ```
   npm install mongoose
   ```
+  - **Mysql2**: For Mysql datavse.
+  ```
+  npm install mysql2
+  ```
 
 - **Body-parser**: For parsing request bodies in the backend.
   ```
